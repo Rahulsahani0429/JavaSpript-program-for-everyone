@@ -1,0 +1,16 @@
+.man{
+    width: 300px;
+    height: 200px;
+}
+.green{
+    color: green;
+}
+.info{
+    width: 300px;
+    height: 250px;
+    border: 1px solid red;
+}
+.img{
+    width: 400px;
+    height: 200px;
+}
