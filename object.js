@@ -1,22 +1,13 @@
-// breate the object
-// let rectanlge = {
-//     length:2,
-//     breadth:4,
-//     draw: function() {
-//         console.log('draw this code');
-//     }
-// };
-// factory function
-function createRectangle() {
-return rectangle = {
-    length:3, 
-    breadth:5,
+let marks={
+    rahul:98,
+    sandeep:87,
+    manish:90,
+    vikash:97
+    
 
-     draw() {
-        console.log("use of this function we create the object");
-     }
-     
-};
-} 
-rectangle.length;
-rectangle.breadth;
+}
+for(let i=0; i<Object.keys(marks).lenght; i++){
+    console.log("the marks of" +Object.keys(marks)[0]+"are"+marks[Object.keys(marks)[i]]);
+    
+    
+}
